@@ -8,6 +8,6 @@ if (chute == numeroSecreto) {
     alert(`Isso ai meu chapa quente! você descobriu o número Secreto ${numeroSecreto} `);
     console.log(`Isso ai meu chapa quente! você descobriu o ${númeroSecreto}`);
 }else{
-    alert('Você errou :(')
+    alert(`O numero secreto era ${numeroSecreto}`)
     console.log('Errou!');
 }
