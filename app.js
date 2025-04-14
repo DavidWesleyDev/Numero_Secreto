@@ -11,7 +11,7 @@ while(chute != numeroSecreto){
 
     //Se o chute for igual ao numero secreto
     if (chute == numeroSecreto) {
-        alert(`Isso ai meu chapa quente! você descobriu o número Secreto ${numeroSecreto} com ${tentativas} trntativas `);
+        alert(`Isso ai meu chapa quente! você descobriu o número Secreto ${numeroSecreto} com ${tentativas} tentativas `);
         console.log(`Isso ai meu chapa quente! você descobriu o ${númeroSecreto}`);
     }else{
 
