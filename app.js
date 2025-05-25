@@ -1,5 +1,6 @@
 alert ('Boas vindas ao Jogo do Numero Secreto!');
-let numeroSecreto = parseInt(Math.random() * 100 + 1); 
+let numeroMaximo = 5000;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); 
 console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
@@ -7,7 +8,7 @@ let tentativas = 1;
 
 //enquanto...EX: o chte não por igual o numero secreto            //!= Diferente... nessa situação represente while (chute!= )"Equanto o chute não for igual ao numero secreto, repetetir ate acertar "
 while(chute != numeroSecreto){
-    chute = prompt('Escolha um número de 1 a 100');
+    chute = prompt(`Escolha um número de 1 a ${numeroMaximo}`);
 
     //Se o chute for igual ao numero secreto
     if (chute == numeroSecreto) {
