@@ -26,8 +26,13 @@ while(chute != numeroSecreto){
     }
 };
 
-let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'              //variavel palavraTentativa igual a, tentativa é maior que 1 ? caso tentativa for maior do que 1 eu vou colocar tentativas se não 'tentativa'                   
+//variavel palavraTentativa igual a, tentativa é maior que 1 ? caso tentativa for maior do que 1 eu vou colocar 'tentativas' se não 'tentativa'
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'                              
 alert(`Isso ai meu chapa quente! você descobriu o número Secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa} `);
+
+
+
+
 
 
 //if(tentativas > 1){
